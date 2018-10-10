@@ -1,0 +1,40 @@
+div.notback {
+	opacity:1;
+}
+.back {
+	background-image: url(https://media.groupe-psa.com/sites/default/files/styles/cropping_image/public/field/image/7/P11037663_2_0.JPG?itok=KmT59Gcc);
+	background-color: rgb(199,199,199);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+}
+
+.hc{
+	text-align: center;
+	background-color: gray;
+	color:white;
+	text-shadow: 3px 2px black;
+	font-family: Georgia;
+}
+
+.card{
+	border-style: solid;
+	border-color: black;
+}
+h5.card-header{
+	text-align: center;
+	font-family: Georgia;
+	font-weight: bold;
+	color: beige;
+}
+p.card-text{
+	font-family: calibiri;
+	font-size: 22pt;
+}
+
+h5.card-title{
+	font-family: cursive;
+	font-size: 30pt;
+	text-align: center;
+	color: navy;
+}
