@@ -38,3 +38,19 @@ h5.card-title{
 	text-align: center;
 	color: navy;
 }
+
+h5.khm {
+	color: white;
+	font-family: arial;
+	background-color: black;
+}
+
+.footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
