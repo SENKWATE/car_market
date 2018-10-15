@@ -1,19 +1,19 @@
-
 {% extends "base.html"%}
+
 {% block title%} Car List{% endblock title%}
 {%block content%}
 	<br>
-	<div class="mx-3 my-2 row">
+	<div class="mx-4 my-2 row">
 		{% for car in cars %}
-			<div class="card mx-2" style="width: 18rem;">
+			<div class="card mx-4" style="width: 18rem;">
 		{% if car.car_img %}
-  			<img class="card-img-top" src="{{car.car_img.url}}" width=300 height=200 alt="Card image cap" enctype="multipart/form-data">
+  			<img class="card-img-top" src="{{car.car_img.url}}" +width=300 height=200 alt="Card image cap" enctype="multipart/form-data">
   		{% endif %}
   		<div class="card-body">
     		<h5 class="card-title">{{car.make}}</h5>
     		<p class="card-text">Model: {{car.model}}</p>
    			<p class="card-text">Year: {{car.year}}</p>
-    		<a href="{{car.get_absolute_url}}" class="btn btn-primary">Details!</a>
+    		<a href="{{car.get_absolute_url}}" class="btn btn-primary">Details! <i class="fas fa-info-circle"></i></a>
   		</div>
 	</div>
 		{% endfor %}

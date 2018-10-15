@@ -7,8 +7,8 @@
   <p class="card-text">Model: {{car.model}}</p>
   <hr class="my-4">
   <p class="card-text">Year:{{car.year}}</p>
-  <a class="btn btn-primary btn-lg" href="{% url 'car-update' car.id %}" class="btn btn-outline-primary btn-block">Update</a>
-  <a class="btn btn-primary btn-lg" href="{% url 'car-delete' car.id %}" class="btn btn-outline-danger btn-block">Delete</a>
+  <a class="btn btn-primary btn-lg" href="{% url 'car-update' car.id %}" class="btn btn-outline-primary btn-block">Update <i class="fas fa-pen"></i></a>
+  <a class="btn btn-primary btn-lg" href="{% url 'car-delete' car.id %}" class="btn btn-outline-danger btn-block">Delete <i class="fas fa-trash-alt"></i></a>
 </div>
 {% endblock content%}
 

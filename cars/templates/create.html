@@ -13,7 +13,10 @@
         <form action="{% url 'car-create' %}" method="POST" message="INFOS" enctype="multipart/form-data">
             {% csrf_token %}
             {{form|crispy}}
-            <input type="submit" value="Create" class="btn btn-outline-success">
+            <button type="submit" class="btn btn-outline-success">
+              Create 
+              <i class='fas fa-plus-square'></i>
+            </button>
         </form>
     </p>
   </div>
